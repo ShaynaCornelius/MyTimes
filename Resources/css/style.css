@@ -54,7 +54,7 @@ nav span {
 /* Main Content Container */
 
 .content {
-  display: flex;
+  display: inline-flex;
   border: 1px solid black;
   width: 1232px;
   margin: 0 auto 78px auto;
@@ -71,8 +71,8 @@ nav span {
 
 .column.large {
   display: flex;
-  display: inline-block;
   width: 630px;
+  height: auto;
   border: 2px solid black;
   flex-direction: column;
 
@@ -80,15 +80,15 @@ nav span {
 
 .column.medium {
   display: flex;
-  display: inline-block;
   width: 300px;
+  height: auto;
   flex-direction: column;
 }
 
 .column.small {
   display: flex;
-  display: inline-block;
   width: 240px;
+  height: auto;
   flex-direction: column;
 }
 .story {
