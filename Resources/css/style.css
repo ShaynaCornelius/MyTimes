@@ -80,6 +80,7 @@ nav span {
   width: 300px;
   justify-content: space-between;
   align-content: space-between;
+  padding-right: 20px;
 }
 
 .narrative {
@@ -117,7 +118,7 @@ nav span {
 .main-img-headline {
   display: flex;
   flex-direction: column;
-  background-image: url("./images/img-story-main.png");
+  background-image: url("../images/img-story-main.png");
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -129,7 +130,7 @@ nav span {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("./images/img-story-2.png");
+  background-image: url("../images/img-story-2.png");
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -143,7 +144,7 @@ nav span {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("./images/img-story-3.png");
+  background-image: url("../images/img-story-3.png");
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -166,7 +167,7 @@ nav span {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("./images/img-story-1.png");
+  background-image: url("../images/img-story-1.png");
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
