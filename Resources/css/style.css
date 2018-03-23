@@ -66,8 +66,14 @@ nav span {
   flex-direction: column;
   margin-right: 32px;
   border: 1px solid black;
-
 }
+
+.story {
+  border: 2px solid black;
+  flex-direction: column;
+}
+
+/* First Column */
 
 .column.large {
   display: flex;
@@ -78,6 +84,20 @@ nav span {
 
 }
 
+.main-img-headline {
+  border: 1px solid black;
+}
+
+.fall-img-headline {
+  border: 1px solid black;
+}
+
+.camera-img-headline {
+  border: 1px solid black;
+}
+
+/* Second Column */
+
 .column.medium {
   display: flex;
   width: 300px;
@@ -85,18 +105,16 @@ nav span {
   flex-direction: column;
 }
 
+.cats-img-headline {
+  border: 1px solid black;
+}
+
+
+/* Third Column */
+
 .column.small {
   display: flex;
   width: 240px;
   height: auto;
   flex-direction: column;
-}
-.story {
-  border: 2px solid black;
-  flex-direction: column;
-}
-
-
-span {
-  border: 1px solid black;
 }
